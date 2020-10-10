@@ -37,6 +37,9 @@ announcer:
       -
         pattern: '-infinity'
         replace: 'negative infinity'
+      -
+        pattern: '[Dd]ale'
+        replace: 'dollay'
     com.apple.speech.synthesis.voice.fiona.premium:
       -
         pattern: '(\d*)-(\d*)'
